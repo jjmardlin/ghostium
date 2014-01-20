@@ -49,7 +49,11 @@
                 <a href="{{@blog.url}}/about" itemprop="url" class="post-author-name">
                   <span itemprop="name">{{author.name}}</span>
                 </a>
-                
+                {{#if author.image}}
+ -                <a href="{{author.website}}" class="post-author-avatar">
+ -                  <img itemprop="image" src="{{author.image}}" alt="{{author.name}}">
+ -                </a>
+ -              {{/if}}
                 {{#if author.location}}
                   <p class="post-author-location">{{author.location}}</p>
                 {{/if}}
