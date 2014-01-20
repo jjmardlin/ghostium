@@ -35,7 +35,7 @@
                 <a href="{{author.website}}" class="post-author-name">
                   {{author.name}}
                 </a>
-                
+                <p class="post-author-bio">{{author.bio}}</p>
               </div>
             </div>
           </aside>
@@ -54,13 +54,17 @@
                 <a href="{{author.website}}" itemprop="url" class="post-author-name">
                   <span itemprop="name">{{author.name}}</span>
                 </a>
-                
+                <p itemprop="description" class="post-author-bio">{{author.bio}}</p>
+                {{#if author.location}}
+                  <p class="post-author-location">{{author.location}}</p>
+                {{/if}}
+                {{#if author.website}}
                   <p class="post-author-website">
-                    <a href="https://plus.google.com/+johnmardlin" rel="nofollow">g+ auth link</a>
+                    <a href="{{author.website}}" rel="nofollow">{{author.website}}</a>
                   </p>
-                
+                {{/if}}
                 <p class="post-info">
-                  <b classb="post-info-title">Published on</b>
+                  <b class="post-info-title">Published on</b>
                   <time class="post-date">{{date format='MMMM DD, YYYY'}}</time>
                 </p>
               </div>
@@ -74,12 +78,9 @@
           </footer>
         </section>
       {{/post}}
-      <section itemprop="comment" class="post-comments">
-        
-      </section>
+      
     </article>
 
     {{> footer this}}
   </div>
 </section>
-
