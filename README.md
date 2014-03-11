@@ -1,6 +1,10 @@
-# Ghostium [![Build Status](https://travis-ci.org/oswaldoacauan/ghostium.png)](https://travis-ci.org/oswaldoacauan/ghostium) [![Total views](https://sourcegraph.com/api/repos/github.com/oswaldoacauan/ghostium/counters/views.png)](https://sourcegraph.com/github.com/oswaldoacauan/ghostium)
+﻿# Ghostium [![Build Status](https://travis-ci.org/oswaldoacauan/ghostium.png)](https://travis-ci.org/oswaldoacauan/ghostium) [![Total views](https://sourcegraph.com/api/repos/github.com/oswaldoacauan/ghostium/counters/views.png)](https://sourcegraph.com/github.com/oswaldoacauan/ghostium)
 
 ![Ghostium](http://i.imgur.com/m5VcTBl.png)
+
+## TODO for mardl.in
+- remove dates from top of "static" pages  
+- add quotes and reading list pages and links to side bar nav
 
 > A [Ghost](https://ghost.org/) theme focused on content based on [Medium](https://medium.com) design/ux.
 
